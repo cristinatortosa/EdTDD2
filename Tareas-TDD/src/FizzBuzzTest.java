@@ -45,4 +45,20 @@ class FizzBuzzTest {
         //Assert                     //Act
         assertEquals("Fizz", fizzBuzz.calculaCadena(6));
     }
+    @Test
+    void testPaso7y8y9Devuelve7y8EnCadenaYFizz() {
+        //Arrange
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        //Assert                     //Act
+        assertEquals("7", fizzBuzz.calculaCadena(7));
+        assertEquals("8", fizzBuzz.calculaCadena(8));
+        assertEquals("Fizz", fizzBuzz.calculaCadena(9));
+    }
+    @Test
+    void testPaso10DevuelveBuzz() {
+        //Arrange
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        //Assert                     //Act
+        assertEquals("Buzz", fizzBuzz.calculaCadena(10));
+    }
 }

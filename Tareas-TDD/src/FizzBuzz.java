@@ -3,7 +3,7 @@ public class FizzBuzz {
         String numeroCadena;
         if (numero % 3 == 0) {
             numeroCadena = "Fizz";
-        } else if (numero == 5) {
+        } else if (numero % 5 == 0) {
             numeroCadena = "Buzz";
         } else {
             numeroCadena = String.valueOf(numero);
