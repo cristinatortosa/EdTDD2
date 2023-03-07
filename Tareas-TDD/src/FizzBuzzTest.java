@@ -21,7 +21,28 @@ class FizzBuzzTest {
     void testPaso3DevuelveFizz() {
         //Arrange
         FizzBuzz fizzBuzz = new FizzBuzz();
-        //Assert
+        //Assert                   //Act
         assertEquals("Fizz", fizzBuzz.calculaCadena(3));
+    }
+    @Test
+    void testPaso4Devuelve4EnCadena() {
+        //Arrange
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        //Assert                   //Act
+        assertEquals("4", fizzBuzz.calculaCadena(4));
+    }
+    @Test
+    void testPaso5DevuelveBuzz() {
+        //Arrange
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        //Assert                     //Act
+        assertEquals("Buzz", fizzBuzz.calculaCadena(5));
+    }
+    @Test
+    void testPaso6DevuelveFizz() {
+        //Arrange
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        //Assert                     //Act
+        assertEquals("Fizz", fizzBuzz.calculaCadena(6));
     }
 }
