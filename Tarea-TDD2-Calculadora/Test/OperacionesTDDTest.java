@@ -28,4 +28,9 @@ class OperacionesTDDTest {
         //Assert                //Act
         assertEquals(-1, OperacionesTDD.suma("1, 1, 2, "));
     }
+    @Test
+    void testAlIntroducirUnNumeroNegativoDevuelveUnErrorYMenos1() {
+        //Assert                //Act
+        assertEquals(-1, OperacionesTDD.suma("1, 1, -2"));
+    }
 }
