@@ -33,4 +33,9 @@ class OperacionesTDDTest {
         //Assert                //Act
         assertEquals(-1, OperacionesTDD.suma("1, 1, -2"));
     }
+    @Test
+    void testAlIntroducirNumeroMayorDe1000LoIgnoraEnLaSuma() {
+        //Assert                //Act
+        assertEquals(5, OperacionesTDD.suma("5, 1002"));
+    }
 }
